@@ -1,0 +1,29 @@
+@keyframes mymove {
+  from {font-size: 25px}
+  to {font-size: 1px; opacity: 0; display: none;}
+}
+body {
+  opacity: 1;
+  transition: 1s opacity;
+  width: 100%;
+
+}
+body.fade-out{
+  opacity: 0;
+  transition: 1s opacity;
+}
+body.fade-out:after {
+  opacity: 0;
+}
+header{
+height:100%;
+width: 100%;
+font-size: 25px;
+position: relative;
+color: #1959CC;
+text-align: center;
+padding-top: 25%;
+padding-bottom:25%;
+animation: mymove 5s;
+animation-fill-mode: forwards;
+}
