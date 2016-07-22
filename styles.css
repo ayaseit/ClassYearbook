@@ -44,35 +44,58 @@ table {
 	border-spacing: 0;
 }
 
+h2 {
+  font-family: "Raleway", monospace, sans-serif;
+  font-size: 3em;
+  color: #fff;
+  display: flex;
+  justify-content: center;
 
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+
+
+
+}
+/* Class header */
 .header {
   display:flex;
   justify-content: space-around;
   background-color: rgba(48, 88, 197, 0.25);
-/*  margin-bottom: 1em; */
 }
 
+
+
+
+/* ID for body, and background */
 #mainbody {
-/*	line-height: 1;*/
   background-image: url("images/jumboimage.jpg");
   background-size: cover;
 }
 
+/* Top item list  - here are should be buttons */
 #navbar li {
   display: inline-flex;
   justify-content: space-between;
   margin-left: 2em;
-  font-family: "Raleway", cursive, sans-serif, serif;
-  font-size: 2em;
+  font-family: "Raleway", monospace, sans-serif, serif;
+  font-size: 1.2em;
   color: #FFFFFF;
 }
 
+/* This is for the main header  */
 #navbar li:first-child {
   font-weight: bold;
   font-size: 3em;
-  font-family: "Gloria Hallelujah", cursive, sans-serif, serif;
+  margin-right: 3em;
+  margin-left: -6em;
+  font-family: "Fredoka One", monospace, sans-serif, serif;
 }
 
+/* Container, contains 2 parts, sidebar and content */
 #container {
   display: flex;
   justify-content: space-around;
@@ -81,6 +104,12 @@ table {
 
 }
 
+#downpage {
+  background-color: #fff;
+  
+}
+
+/* Footer, should include links, copyrights, licenses, credits etc */
 #footer {
   display: flex;
   justify-content: center;
