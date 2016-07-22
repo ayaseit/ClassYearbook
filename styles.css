@@ -1,7 +1,38 @@
+@keyframes mymove {
+  from {font-size: 25px}
+  to {font-size: 1px; opacity: 0; display: none;}
+}
+body {
+  opacity: 1;
+  transition: 1s opacity;
+  width: 100%;
+
+}
+body.fade-out{
+  opacity: 0;
+  transition: 1s opacity;
+}
+body.fade-out:after {
+  opacity: 0;
+}
+header{
+height:100%;
+width: 100%;
+font-size: 25px;
+position: relative;
+color: #1959CC;
+text-align: center;
+padding-top: 25%;
+padding-bottom:25%;
+animation: mymove 3s;
+animation-fill-mode: forwards;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -71,7 +102,7 @@ h2 {
 
 
 /* ID for body, and background */
-#mainbody {
+body {
   background-image: url("images/jumboimage.jpg");
   background-size: cover;
 }
@@ -106,7 +137,7 @@ h2 {
 
 #downpage {
   background-color: #fff;
-  
+
 }
 
 /* Footer, should include links, copyrights, licenses, credits etc */
