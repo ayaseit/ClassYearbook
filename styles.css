@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -101,6 +100,29 @@ li img {
 	border-radius: 50%;
 	margin-top: 0.5em;
 }
+
+
+/*splash animation*/
+@keyframes mymove {
+  from {font-size: 25px}
+  to {font-size: 1px; opacity: 0; display: none;}
+}
+
+#splash{
+height:100vh;
+width: 100%;
+font-size: 25px;
+position: absolute;
+color: #1959CC;
+text-align: center;
+padding-top: 50vh;
+background-color: white;
+overflow: hidden;
+
+animation: mymove 5s;
+animation-fill-mode: forwards;
+}
+
 
 /* Class header */
 .header {
