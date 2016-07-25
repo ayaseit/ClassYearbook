@@ -1,11 +1,7 @@
-
-
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -53,16 +49,58 @@ h2 {
   color: #fff;
   display: flex;
   justify-content: center;
-
 }
 
-.btn {
+h3 {
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+  font-family: "Raleway", monospace, sans-serif;
+  font-size: 3em;
   display: flex;
   justify-content: center;
+}
 
-
+h4 {
+  font-family: "Raleway", monospace, sans-serif;
+  font-size: 1em;
 
 }
+
+a {
+text-decoration: none;
+color: #fff;
+
+}
+
+/*#teampage {
+	display: flex;
+	justify-content: center;
+}*/
+
+.button {
+  display: flex;
+  justify-content: center;
+	padding: 0.3em;
+  font-size: 0.4em;
+  margin: 0.5em;
+  border-radius: 5px;
+  background-color: rgba(255, 112, 10, 0.6);
+  border-color: rgba(168, 45, 0, 0.6);
+  color: #fff;
+}
+
+.person li {
+  display: inline-block;
+  margin-left: 3em;
+	text-align: center;
+
+}
+
+li img {
+	border-radius: 50%;
+	margin-top: 0.5em;
+}
+
 
 /*splash animation*/
 @keyframes mymove {
@@ -84,6 +122,8 @@ overflow: hidden;
 animation: mymove 5s;
 animation-fill-mode: forwards;
 }
+
+
 /* Class header */
 .header {
   display:flex;
@@ -92,12 +132,12 @@ animation-fill-mode: forwards;
 }
 
 
-
-
 /* ID for body, and background */
-body {
+#mainbody {
   background-image: url("images/jumboimage.jpg");
-  background-size: cover;
+	background-attachment: fixed;
+  background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 /* Top item list  - here are should be buttons */
@@ -109,6 +149,11 @@ body {
   font-size: 1.2em;
   color: #FFFFFF;
 }
+
+/*#navbar li:hover {
+  background-color: rgba(119, 0, 255, 0.11);
+  padding: 1em;
+}*/
 
 /* This is for the main header  */
 #navbar li:first-child {
@@ -128,8 +173,20 @@ body {
 
 }
 
+#jumbotron {
+  margin-top: 30em;
+	/*width: 100%;
+	height: 100%;*/
+
+}
+
 #downpage {
   background-color: #fff;
+  position: absolute;
+    bottom: -56em;
+    width: 100%;
+		height: 105%;
+    margin: 0 auto;
 
 }
 
@@ -139,11 +196,14 @@ body {
   justify-content: center;
   font-family: "Raleway", cursive, sans-serif, serif;
   margin-top: 3em;
-  background-color: rgba(194, 202, 224, 0.36);
+  background-color: rgba(161, 161, 161, 0.9);
   position: absolute;
-    bottom: 0;
+    bottom: -69em;
     width: 100%;
-    height: 5em;
+    height: 13em;
     margin: 0 auto;
+}
 
+#footer li {
+margin-top: 2em;
 }
