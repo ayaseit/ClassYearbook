@@ -1,15 +1,23 @@
 
 
+figure img{
+  width: 100%;
+}
+
+.container {
+  border: 2px solid #000000;
+}
 
 
 
 #avatar_image {
+  width: 250px;
   border-radius: 5px;
   cursor: pointer;
 }
 
 span .close {
-  background-color: white;
+  color: white;
   cursor: pointer;
 }
 #modal_box {
@@ -19,6 +27,7 @@ span .close {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.75);
+  overflow: scroll;
 }
 
 #modal_box img {
