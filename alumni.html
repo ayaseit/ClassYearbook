@@ -23,6 +23,20 @@
 </header>
 </div>
 
+<section>
+  <div id="jumbotron">
+    <h2 class="animated bounceInUp">Class Yearbook</h2>
+      <!--  <div class="btn"> -->
+      <button class="button animated bounceInUp" type="button" name="Alumni">See Our Alumni</button>
+      <!--  </div> -->
+      <!--  <div class="btn" >  -->
+      <button class="button animated bounceInUp" type="button" name="Apply"><a href="http://coderbootcamp.org/enrollment.html">Apply</a></button>
+      <!--  </div> -->
+    </div>
+
+  </section>
+
+
 <script>
   var students = [
     { name: "Aaron Meneses",
@@ -100,22 +114,23 @@
     { name:"Victor Tsang",
     	img:"http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
     } ];
-    var studentList = document.createElement("ul");
-    document.body.appendChild(studentList)
-      for (var i = 0; i < students.length; i++) {
-        var a = document.createElement("li");
-        studentList.appendChild(a)
-        var b = document.createElement("img");
-        b.src = students[i].img;
-        a.appendChild(b);
-        var c = document.createElement("h3");
-        c.innerHTML = students[i].name;
-        a.appendChild(c);
+    var studentList = document.createElement("div");
+  document.body.appendChild(studentList)
+    for (var i = 0; i < students.length; i++) {
+      var a = document.createElement("figure");
+      studentList.appendChild(a)
+      var b = document.createElement("img");
+      b.src = students[i].img;
+      a.appendChild(b);
+      var c = document.createElement("figcaption");
+      c.innerHTML = students[i].name;
+      a.appendChild(c);
   }
   </script>
 
-</body>
+
 <footer>
   Copyright &copy; Class Yearbook 2016
 </footer>
+</body>
 </html>
