@@ -1,0 +1,15 @@
+div {
+  border:2px solid #000000;
+}
+
+figure {
+  display: inline-block;
+  width:250px;
+  border: 2px solid #000000;
+}
+img {
+  width:inherit;
+}
+figcaption {
+  text-align:center;
+}
