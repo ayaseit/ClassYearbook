@@ -120,8 +120,7 @@ li img {
 
 /* Top item list  - here are should be buttons */
 #navbar li {
-  display: inline-flex;
-  justify-content: space-between;
+	display: inline-block;
   margin-left: 2em;
   font-family: "Raleway", monospace, sans-serif, serif;
   font-size: 1.2em;
@@ -138,7 +137,7 @@ li img {
   font-weight: bold;
   font-size: 3em;
   margin-right: 3em;
-  margin-left: -6em;
+/*  margin-left: -6em;  */
   font-family: "Fredoka One", monospace, sans-serif, serif;
 }
 
