@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="alumni.css" media="screen" title="no title" charset="utf-8">
   <link href='https://fonts.googleapis.com/css?family=Raleway|Arimo|Fredoka+One|Bangers|Noto+Sans|Indie+Flower|Noto+Serif|Josefin+Sans|Architects+Daughter|Gloria+Hallelujah' rel='stylesheet' type='text/css'>
 
   <title>2016 Class of Web Development</title>
 
 </head>
+
 <body>
 <div class="header">
 <header>
@@ -22,40 +23,99 @@
 </header>
 </div>
 
-<div id="container">
-<div id="sidebar">
-  <ul>
-    <li>Name: </li>
-    <li>About me: </li>
-    <li>LinkedIn: </li>
-    <li>GitHub: </li>
-    <li>Codepen Demos:</li>
-    <li>Student location: </li>
-    <li>Contact me: </li>
-  </ul>
-</div>
-<div id="content">
-  <p>
-    Lorem ipsum dolor sit amet, sit at quot evertitur, cetero epicuri nominati eam eu.<br>
-    In per ferri augue equidem, ad pro case debitis repudiandae.<br>
-    Sed et quando laoreet reprehendunt, cu inani partiendo eos, eu nonumes facilisi contentiones mel.<br>
-    His error iuvaret maluisset ea. Mea ridens audire in, at vim sonet convenire, simul utroque qui cu. Has cu utamur oblique appetere.<br>
-  </p>
-</div>
-</div>
-
-<div id="footer">
-  <ul>
-    <li>Footer1</li>
-    <li>Footer1</li>
-    <li>Footer1</li>
-  </ul>
-  <ul>
-    <li>Footer1</li>
-    <li>Footer1</li>
-    <li>Footer1</li>
-  </ul>
-</div>
+<script>
+  var students = [
+    { name: "Aaron Meneses",
+      img: "http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png"
+    },
+    { name: "Adam Mak",
+      img: "http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name:"AleTGuti",
+      img: "http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name: "Alfonso",
+      img: "http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name:"Ashenafi",
+    	img:"http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name:"Aya Seit",
+    	img:"http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name:"Cass",
+    	img:"http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name:"David Herrera",
+    	img:"http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name:"Gabby",
+    	img:"http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name:"Gre Le Rock",
+    	img:"http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name:"Jason Berland",
+    	img:"http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name:"Javier Ramirez",
+    	img:"http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name:"JM",
+    	img:"http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name:"Leo",
+    	img:"http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name:"Lucas",
+    	img:"http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name:"Kuis Sante",
+    	img:"http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name:"M.S.Ruhany",
+    	img:"http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name:"Mariek",
+    	img:"http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name:"Michael",
+    	img:"http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name:"Sophia",
+    	img:"http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name:"Sherwin",
+    	img:"http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name:"Trevor Archer",
+    	img:"http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name:"Tyler",
+    	img:"http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name:"Vicky Nguyen",
+    	img:"http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    },
+    { name:"Victor Tsang",
+    	img:"http://www.clker.com/cliparts/H/b/X/Q/G/e/transparent-man-md.png",
+    } ];
+    var studentList = document.createElement("ul");
+    document.body.appendChild(studentList)
+      for (var i = 0; i < students.length; i++) {
+        var a = document.createElement("li");
+        studentList.appendChild(a)
+        var b = document.createElement("img");
+        b.src = students[i].img;
+        a.appendChild(b);
+        var c = document.createElement("h3");
+        c.innerHTML = students[i].name;
+        a.appendChild(c);
+  }
+  </script>
 
 </body>
+<footer>
+  Copyright &copy; Class Yearbook 2016
+</footer>
 </html>
