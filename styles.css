@@ -1,52 +1,4 @@
-<<<<<<< HEAD
-body{
-  width: 100%;
-  height: 100%;
-  background-color: black;
-}
-header {
-  padding: 10px;
-  color: #999;
-  text-align: center;
-  background-color: #820025;
-}
 
-h2 {
-  background-color: gray;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  height: 1em;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-}
-
-#content {
-  background-color: red;
-  position: absolute;
-  right: 100px;
-  bottom: 100px;
-  height: 600px;
-  width: 1000px;
-}
-
-
-
-
-#sidebar {
-  float: left;
-  width: 150px;
-  list-style-type: none;
-  background-color: #002F75;
-  font-weight: bolder;
-  padding: 10px 5px 10px 15px;
-  line-height: 1.25em;
-  border-radius: 15px;
-  margin-left: 50px;
-=======
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -253,5 +205,5 @@ overflow: hidden;
 
 animation: mymove 5s;
 animation-fill-mode: forwards;
->>>>>>> 7422e4c6747bac87b0a59e916f393a4bc9e99f90
+
 }
