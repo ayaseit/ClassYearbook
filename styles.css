@@ -188,19 +188,19 @@ margin-top: 2em;
 
 /*splash animation*/
 @keyframes mymove {
-  from {font-size: 25px}
+  from {font-size: 45px}
   to {font-size: 1px; opacity: 0; display: none;}
 }
 
 #splash{
 height:100vh;
 width: 100%;
-font-size: 25px;
+font-size: 45px;
 position: absolute;
-color: #1959CC;
+color: white;
 text-align: center;
 padding-top: 50vh;
-background-color: white;
+background-color: #5084e2;
 overflow: hidden;
 
 animation: mymove 5s;
