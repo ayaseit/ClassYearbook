@@ -76,6 +76,10 @@ color: #fff;
 	justify-content: center;
 }*/
 
+.midpage {
+	margin-top: 25%;
+}
+
 .button {
   /* display: flex;
   justify-content: center; */
@@ -123,7 +127,7 @@ li img {
 	display: inline-block;
   margin-left: 2em;
   font-family: "Raleway", monospace, sans-serif, serif;
-  font-size: 1.2em;
+  font-size: 1.6rem;
   color: #FFFFFF;
 }
 
@@ -151,7 +155,7 @@ li img {
 }
 
 #jumbotron {
-  margin-top: 30em;
+/*  margin-top: 30em; */
 	/*width: 100%;
 	height: 100%;*/
 
@@ -173,7 +177,7 @@ li img {
   justify-content: center;
   font-family: "Raleway", cursive, sans-serif, serif;
   margin-top: 3em;
-  background-color: rgba(161, 161, 161, 0.9);
+  background-color: grey;
   position: absolute;
     bottom: -69em;
     width: 100%;
