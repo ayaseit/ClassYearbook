@@ -74,16 +74,3 @@ footer {
     height: 13em;
     margin: 0 auto;
 }
-
-.button {
-  /* display: flex;
-  justify-content: center; */
-	text-align: center;
-	padding: 0.3em;
-  font-size: 0.4em;
-  margin: 0.5em;
-  border-radius: 5px;
-  background-color: rgba(255, 112, 10, 0.6);
-  border-color: rgba(168, 45, 0, 0.6);
-  color: #fff;
-}
