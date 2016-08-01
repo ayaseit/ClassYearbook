@@ -75,18 +75,15 @@ color: #fff;
 	display: flex;
 	justify-content: center;
 }*/
-.center-button {
-	display: inline-flex;
+.midpage {
+	margin-top: 25%;
+	display: flex;
 	flex-wrap: wrap;
 	justify-content:center;
 }
-.midpage {
-	margin-top: 25%;
-}
 
 .button {
-   /*display: flex;
-  justify-content: center;*/
+  display: inline-block;
 	text-align: center;
 	padding: 0.3em;
   font-size: 1em;
@@ -95,6 +92,14 @@ color: #fff;
   background-color: rgba(255, 112, 10, 0.6);
   border-color: rgba(168, 45, 0, 0.6);
   color: #fff;
+}
+.center-button {
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	width: 75%;
+	/*border: 2px solid #000000;*/
+	display:inline-flex;
+	justify-content:center;
 }
 
 .person li {
@@ -112,9 +117,22 @@ li img {
 
 /* Class header */
 .header {
-  display:flex;
-  justify-content: space-around;
+	width:100%;
+  /*justify-content: space-around;*/
+	color:white;
   background-color: rgba(48, 88, 197, 0.25);
+}
+/* Top item list  - here are should be buttons */
+#navbar {
+	display:flex;
+	flex-wrap:wrap;
+}
+#navbar li {
+	display: inline-block;
+  margin-left: 2em;
+  font-family: "Raleway", monospace, sans-serif, serif;
+  font-size: 1.6rem;
+  color: #FFFFFF;
 }
 
 
@@ -126,14 +144,6 @@ li img {
 	background-repeat: no-repeat;
 }
 
-/* Top item list  - here are should be buttons */
-#navbar li {
-	display: inline-block;
-  margin-left: 2em;
-  font-family: "Raleway", monospace, sans-serif, serif;
-  font-size: 1.6rem;
-  color: #FFFFFF;
-}
 
 /*#navbar li:hover {
   background-color: rgba(119, 0, 255, 0.11);
@@ -141,7 +151,7 @@ li img {
 }*/
 
 /* This is for the main header  */
-#navbar li:first-child {
+.header h1 {
   font-weight: bold;
   font-size: 3em;
   margin-right: 3em;
