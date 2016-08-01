@@ -1,0 +1,38 @@
+body {
+  height: 100%;
+}
+
+h1{
+  color: white;
+  margin-left: 45%;
+  margin-right: 45%;
+  font-weight: bold;
+  font-size: 3em;
+  width: 50%;
+  background-color: rgba(48, 88, 197, 0.25);
+}
+
+li a{
+  display: inline-block;
+  margin-left: 2em;
+  font-family: "Raleway", monospace, sans-serif, serif;
+  font-size: 1.2em;
+  color: #FFFFFF;
+}
+li{
+  list-style-type: none;
+}
+
+p {
+  border: 10px ridge;
+  background-color: White;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  padding: 10px;
+  margin-top: 12.5%;
+  height: 50%;
+position: relative;
+}
