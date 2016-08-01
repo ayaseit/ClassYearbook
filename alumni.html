@@ -10,29 +10,18 @@
   </head>
 
   <body>
-    <div class="header">
-      <header id="navbar">
-        <h1>Web Development Bootcamp</h1>
-        <ul>
-          <li>Link</li>
-          <li>Item2</li>
-          <li>Item3</li>
-        </ul>
-      </header>
-    </div>
-    
-<section>
-  <div id="jumbotron">
-    <h2 class="animated bounceInUp">Class Yearbook</h2>
-      <!--  <div class="btn"> -->
-      <button class="button animated bounceInUp" type="button" name="Alumni">See Our Alumni</button>
-      <!--  </div> -->
-      <!--  <div class="btn" >  -->
-      <button class="button animated bounceInUp" type="button" name="Apply"><a href="http://coderbootcamp.org/enrollment.html">Apply</a></button>
-      <!--  </div> -->
-    </div>
+    <header>
+      <h1>Web Development Bootcamp</h1>
 
-  </section>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Alumni</li>
+        </ul>
+      </nav>
+    </header>
+
 
 
 <script>
@@ -132,3 +121,18 @@
 </footer>
 </body>
 </html>
+
+
+<!--
+var studentList = $("<div>");
+$('body').append(studentList);
+for (var i = 0; i < students.length; i++) {
+  var a = $("<figure>");
+  studentList.appendChild(a)
+  var b = document.createElement("img");
+  b.src = students[i].img;
+  a.appendChild(b);
+  var c = document.createElement("figcaption");
+  c.innerHTML = students[i].name;
+  a.appendChild(c);
+} -->
