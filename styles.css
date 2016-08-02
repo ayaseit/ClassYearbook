@@ -80,7 +80,8 @@ color: #fff;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content:center;
-	border: 2px solid #000000;
+	border: 2px solid #000000
+
 }
 
 .button {
@@ -95,16 +96,23 @@ color: #fff;
   color: #fff;
 }
 .center-button {
-	margin: 0.5em auto;
-	border: 2px solid #000000;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	width: 75%;
+	/*border: 2px solid #000000;*/
 	display:inline-flex;
-	flex-wrap: wrap;
 	justify-content:center;
 }
+.person {
+  border: 2px solid #000000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
+}
 .person li {
   display: inline-block;
-  margin-left: 3em;
+  margin: 1em;
 	text-align: center;
 
 }

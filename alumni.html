@@ -10,6 +10,7 @@
   </head>
 
   <body>
+
     <div class="header">
       <header id="navbar">
         <h1>Web Development Bootcamp</h1>
@@ -34,6 +35,17 @@
 
   </section>
 
+    <header>
+      <h1>Web Development Bootcamp</h1>
+
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Alumni</li>
+        </ul>
+      </nav>
+    </header>
 
 <script>
   var students = [
@@ -132,3 +144,18 @@
 </footer>
 </body>
 </html>
+
+
+<!--
+var studentList = $("<div>");
+$('body').append(studentList);
+for (var i = 0; i < students.length; i++) {
+  var a = $("<figure>");
+  studentList.appendChild(a)
+  var b = document.createElement("img");
+  b.src = students[i].img;
+  a.appendChild(b);
+  var c = document.createElement("figcaption");
+  c.innerHTML = students[i].name;
+  a.appendChild(c);
+} -->
