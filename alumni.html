@@ -1,40 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="alumni.css" media="screen" title="no title" charset="utf-8">
-  <link href='https://fonts.googleapis.com/css?family=Raleway|Arimo|Fredoka+One|Bangers|Noto+Sans|Indie+Flower|Noto+Serif|Josefin+Sans|Architects+Daughter|Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alumni Page</title>
+    <link rel="stylesheet" href="alumni.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway|Arimo|Fredoka+One|Bangers|Noto+Sans|Indie+Flower|Noto+Serif|Josefin+Sans|Architects+Daughter|Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+  </head>
 
-  <title>Alumni Page</title>
+  <body>
+    <header>
+      <h1>Web Development Bootcamp</h1>
 
-</head>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Alumni</li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-<div class="header">
-<header>
-  <ul id="navbar">
-    <li><h1>Web Development Bootcamp</h1></li>
-    <li>Item1</li>
-    <li>Item2</li>
-    <li>Item3</li>
-  </ul>
-</header>
-</div>
-
-<section>
-  <div id="jumbotron">
-    <h2 class="animated bounceInUp">Class Yearbook</h2>
-      <!--  <div class="btn"> -->
-      <button class="button animated bounceInUp" type="button" name="Alumni">See Our Alumni</button>
-      <!--  </div> -->
-      <!--  <div class="btn" >  -->
-      <button class="button animated bounceInUp" type="button" name="Apply"><a href="http://coderbootcamp.org/enrollment.html">Apply</a></button>
-      <!--  </div> -->
-    </div>
-
-  </section>
 
 
 <script>
@@ -134,3 +121,18 @@
 </footer>
 </body>
 </html>
+
+
+<!--
+var studentList = $("<div>");
+$('body').append(studentList);
+for (var i = 0; i < students.length; i++) {
+  var a = $("<figure>");
+  studentList.appendChild(a)
+  var b = document.createElement("img");
+  b.src = students[i].img;
+  a.appendChild(b);
+  var c = document.createElement("figcaption");
+  c.innerHTML = students[i].name;
+  a.appendChild(c);
+} -->
