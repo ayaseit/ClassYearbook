@@ -101,10 +101,16 @@ color: #fff;
 	display:inline-flex;
 	justify-content:center;
 }
+.person {
+  border: 2px solid #000000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
+}
 .person li {
   display: inline-block;
-  margin-left: 3em;
+  margin: 1em;
 	text-align: center;
 
 }
