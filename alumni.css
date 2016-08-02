@@ -1,4 +1,3 @@
-
 body {
   background-image: url("images/jumboimage.jpg");
 	background-attachment: fixed;
@@ -27,11 +26,21 @@ nav {
   }
 nav li {
   display: inline-block;
->>>>>>> f547296e981b24716156634cd0ff090ce3a673a7
   margin-left: 2em;
   font-family: "Raleway", monospace, sans-serif, serif;
   font-size: 1.6rem;
   color: #FFFFFF;
+}
+
+
+div {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  /*padding:  2% auto;*/
+  /*border:2px solid #000000;*/
+
+
 }
 
 figure {
