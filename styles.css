@@ -71,6 +71,14 @@ color: #fff;
 
 }
 
+body {
+  background-image: url("images/jumboimage.jpg");
+	background-attachment: fixed;
+  background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
 /*#teampage {
 	display: flex;
 	justify-content: center;
@@ -115,12 +123,6 @@ li img {
 
 
 /* ID for body, and background */
-#mainbody {
-  background-image: url("images/jumboimage.jpg");
-	background-attachment: fixed;
-  background-size: 100%;
-	background-repeat: no-repeat;
-}
 
 /* Top item list  - here are should be buttons */
 #navbar li {
