@@ -4,12 +4,13 @@ body {
   background-size: 100%;
 	background-repeat: no-repeat;
 }
-
+header {
+  background-color: rgba(48, 88, 197, 0.25); 
+  color:white;
+}
 header h1 {
-	width: 30%;
+	width: 100%;
   /*justify-content: space-around;*/
-	color:white;
-  background-color: rgba(48, 88, 197, 0.25);
   font-weight: bold;
   font-size: 3em;
   margin-right: 3em;
@@ -19,16 +20,15 @@ header h1 {
 
 /* Top item list  - here are should be buttons */
 nav {
-display: block;
-	flex-wrap:wrap;
-width: 10%;
-}
+  display: flex;
+  flex-wrap:wrap;
+/*  width: 10%;*/
+  }
 nav li {
-	display: block;
+  display: inline-block;
   margin-left: 2em;
-  margin-bottom: 1em;
   font-family: "Raleway", monospace, sans-serif, serif;
-  font-size: 1.6em;
+  font-size: 1.6rem;
   color: #FFFFFF;
 }
 
