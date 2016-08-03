@@ -33,7 +33,6 @@ a {
   background-image: url("../images/jumboimage.jpg");
 	background-size:cover;
   background-position:center center;
-  background-attachment:fixed;
 }
 
 .group {
@@ -53,8 +52,7 @@ a {
 
 .footer {
 	background-color: gray;
-	margin-top:5em;
-	padding-top: 2em;
+
 }
 
 /* Overwirting bootstrap below */
