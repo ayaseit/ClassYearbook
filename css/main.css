@@ -33,7 +33,7 @@ a {
   background-image: url("../images/jumboimage.jpg");
 	background-size:cover;
   background-position:center center;
-  background-attachment:fixed;	
+  background-attachment:fixed;
 }
 
 .group {
@@ -61,6 +61,10 @@ a {
 .navbar-default {
   background-color: rgba(0, 68, 128, 0.54);
   border-color: #004480;
+	height:25%;
+	display:flex;
+	align-items: center;
+
 }
 .navbar-default .navbar-brand {
     color: rgb(245, 245, 245);
@@ -89,6 +93,8 @@ a {
 .navbar-brand {
   font-size: 2em;
   font-weight: bold;
+	line-height: 1em;
+	padding-top: 1px;
 }
 
 .btn-default {
@@ -104,6 +110,13 @@ a {
     color: #fff;
     background-color:rgba(255, 39, 10, 0.76);
     border-color: #ff3f0a;
+}
+
+.student-list {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+padding-top: 10%;
 }
 /*End of Bootstrap customization*/
 
