@@ -1,5 +1,5 @@
 body {
-  background-image: url("images/jumboimage.jpg");
+  background-image: url("../images/jumboimage.jpg");
 	background-attachment: fixed;
   background-size: 100%;
 	background-repeat: no-repeat;
