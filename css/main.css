@@ -52,17 +52,17 @@ a {
 
 .footer {
 	background-color: gray;
-
+margin-top: 20px;
 }
 
 /* Overwirting bootstrap below */
 .navbar-default {
   background-color: rgba(0, 68, 128, 0.54);
   border-color: #004480;
-	height:25%;
+	height:15%;
 	display:flex;
 	align-items: center;
-
+position: absolute;
 }
 .navbar-default .navbar-brand {
     color: rgb(245, 245, 245);
