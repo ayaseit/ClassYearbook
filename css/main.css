@@ -1,0 +1,133 @@
+
+h2 {
+	color: #fff;
+	font-size: 3em;
+	font-family: "Raleway";
+	font-weight: 600;
+}
+
+h3 {
+		font-family: "Fredoka One", monospace, sans-serif, serif;
+		font-size: 3em;
+		color: #00032e;
+}
+
+.face h4 {
+	 color: #00032e;
+}
+
+a {
+	color: #fff;
+}
+
+.btn a:hover {
+	color: rgba(255, 133, 133, 1);
+}
+
+.face img {
+	border-radius: 50%;
+}
+
+.pageup {
+	padding-top: 120px;
+  background-image: url("../images/jumboimage.jpg");
+	background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;	
+}
+
+.group {
+	margin-top: 25em;
+}
+
+.content {
+	min-height:720px;
+ 	position: relative
+}
+
+.team {
+	background-color: #fff;
+	background-color: transparent;
+	width:auto;
+}
+
+.footer {
+	background-color: gray;
+	margin-top:5em;
+	padding-top: 2em;
+}
+
+/* Overwirting bootstrap below */
+.navbar-default {
+  background-color: rgba(0, 68, 128, 0.54);
+  border-color: #004480;
+}
+.navbar-default .navbar-brand {
+    color: rgb(245, 245, 245);
+		font-size: 3em;
+		font-family: "Fredoka One", monospace, sans-serif, serif;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #e2dcdc;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+		font-size: 1.5em;
+    color: rgb(245, 245, 245);
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #e2dcdc;
+  background-color: transparent;
+}
+
+.navbar {
+  padding:0.8em;
+}
+.navbar-brand {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.btn-default {
+		font-size: 1.6em;
+		margin: 0.5em;
+    color: #fff;
+    background-color:rgba(255, 63, 10, 0.76);
+    border-color: #ff3f0a;
+}
+
+
+.btn-default:hover {
+    color: #fff;
+    background-color:rgba(255, 39, 10, 0.76);
+    border-color: #ff3f0a;
+}
+/*End of Bootstrap customization*/
+
+
+
+
+
+/*splash animation*/
+@keyframes mymove {
+  from {font-size: 25px}
+  to {font-size: 1px; opacity: 0; display: none;}
+}
+
+#splash{
+height:100vh;
+width: 100%;
+font-size: 25px;
+position: absolute;
+color: #1959CC;
+text-align: center;
+padding-top: 50vh;
+background-color: white;
+overflow: hidden;
+
+animation: mymove 5s;
+animation-fill-mode: forwards;
+}

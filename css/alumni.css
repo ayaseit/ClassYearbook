@@ -1,0 +1,32 @@
+body {
+  padding-top: 120px;
+  background-image: url("../images/jumboimage.jpg");
+}
+
+
+figure {
+  margin: 10px;
+  display: inline-block;
+  width:220px;
+}
+
+figure:hover {
+  cursor:pointer;
+  transform: scale(1.03);
+}
+
+img {
+  width:inherit;
+  border-radius:50%;
+  border: 2px solid #EEEEEE;
+}
+
+figcaption {
+  margin-top: 5px;
+  font-size: 1.5em;
+  text-align:center;
+  color: white;
+  font-family: "Raleway", monospace, sans-serif;
+  background-color: rgba(48, 88, 197, 0.61);
+  border-radius:5px;
+}
