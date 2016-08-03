@@ -20,7 +20,7 @@ a {
 	color: #fff;
 }
 
-a:hover {
+.btn a:hover {
 	color: rgba(255, 133, 133, 1);
 }
 
