@@ -1,5 +1,14 @@
 body {
   height: 100%;
+  background-image: url("../images/jumboimage.jpg");
+}
+
+#One{
+  background-color: white;
+  text-align: center;
+width: 75%;
+margin-left: auto;
+margin-right: auto;
 }
 
 h1{
@@ -25,16 +34,18 @@ li{
 
 p {
   border: 10px ridge;
-  background-color: White;
+
   margin-left: 25%;
   margin-right: 25%;
   width: 50%;
   font-size: 1.3em;
   line-height: 1.3em;
   padding: 10px;
-  margin-top: 12.5%;
   height: 50%;
 position: relative;
+}
+p:first-child{
+  margin-top: 12.5%;
 }
 
 section {
@@ -101,6 +112,8 @@ p {
   margin: 2em;
   margin-left: auto;
   margin-right: auto;
+
+  background-color: white;
 }
 footer #three {
   font-weight: bold;
@@ -110,7 +123,7 @@ padding-top: 10px;
 }
 footer img{
   max-width: 50%;
-  background-color: white;
+
 margin-right: 1em;
 }
 footer {
@@ -118,11 +131,10 @@ footer {
   height: 20%;
   position: relative;
   bottom: 0;
-  background-color: rgba(48, 88, 197, 0.25);
 }
 
 footer h4 {
-  background-color: white;
+
   padding-left: 1em;
   padding-right: 1em;
   margin-bottom: 1em;
